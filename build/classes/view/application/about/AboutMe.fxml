@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="553.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.application.about.AboutMeController">
+   <children>
+      <VBox alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="517.0" prefWidth="735.0">
+               <children>
+                  <AnchorPane prefHeight="517.0" prefWidth="689.0">
+                     <children>
+                        <Label layoutX="142.0" layoutY="194.0" prefHeight="43.0" prefWidth="407.0" text="Umang Rakeshkumar Pandya">
+                           <font>
+                              <Font name="System Bold" size="29.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="267.0" layoutY="237.0" text="University of Colorado">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="119.0" layoutY="259.0" text="Department: CSE, Batch: 2021, Student ID: umangrakeshkumar.pandya@ucdenver.edu" />
+                        <Label layoutX="264.0" layoutY="284.0" text="M@il me :" />
+                        <Label layoutX="184.0" layoutY="307.0" text="Find me on facebook :" />
+                        <Hyperlink layoutX="341.0" layoutY="280.0" text="umangpandya19972@gmail.com" />
+                        <Hyperlink layoutX="341.0" layoutY="303.0" text="facebook.com/umang.pandya.946" />
+                        <ImageView fx:id="imgMyImg" fitHeight="162.0" fitWidth="153.0" layoutX="265.0" layoutY="23.0" pickOnBounds="true" smooth="false">
+                           <rotationAxis>
+                              <Point3D />
+                           </rotationAxis></ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
